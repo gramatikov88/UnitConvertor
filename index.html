@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap"
+      rel="stylesheet"
+    />
+    <title>UnitConvertor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Unit Convertor</h2>
+      <p>Type a value in the Feet field to convert the value to Meters:</p>
+      <p>
+        <label>Feet: </label>
+        <input
+          type="number"
+          id="inputFeet"
+          placeholder="Feet"
+          oninput="feetToMeter(this.value), feetToInches(this.value), feetToYards(this.value), feetToMiles(this.value), feetToCm(this.value)"
+          onchange="feetToMeter(this.value), feetToInches(this.value), feetToYards(this.value), feetToMiles(this.value), feetToCm(this.value)"
+        />
+      </p>
+      <p>cm: <span id="outputCm"></span></p>
+      <hr />
+      <p>Meters: <span id="outputMeters"></span></p>
+      <hr />
+      <p>Inches: <span id="outputInches"></span></p>
+      <hr />
+      <p>Yards: <span id="outputYards"></span></p>
+      <hr />
+      <p>Miles: <span id="outputMiles"></span></p>
+      <hr />
+    </div>
+    <script src="feetToCm.js"></script>
+    <script src="feetToMeter.js"></script>
+    <script src="feetToInches.js"></script>
+    <script src="feetToYards.js"></script>
+    <script src="feetToMiles.js"></script>
+    <script src="copyText.js"></script>
+  </body>
+</html>

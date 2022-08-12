@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap");
+:root {
+  --blue: #a2d2ff;
+  --pink: #ffafcc;
+  --lightpink: #ffc8dd;
+  --purple: #cdb4db;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nuosu SIL", serif;
+}
+
+h2 {
+  font-size: 3em;
+  color: var(--pink);
+  text-shadow: 3px 1px #cdb4db;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+}
+
+label {
+  color: var(--pink);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 3px 1px #cdb4db;
+  font-size: 2.5em;
+}
+
+input {
+  border-radius: 5px;
+  height: 3.5em;
+  border: 1px solid var(--lightpink);
+}
+
+.container {
+  margin: 2em auto;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ffafcc;
+  text-align: center;
+  background-color: var(--blue);
+}
+
+#outputCm {
+  color: var(--lightpink);
+  font-weight: bolder;
+  text-shadow: 3px 1px #cdb4db;
+  font-size: 1.5em;
+}
+
+#outputMeters {
+  color: var(--pink);
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-shadow: 3px 1px #cdb4db;
+}
+
+#outputInches {
+  color: var(--lightpink);
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-shadow: 3px 1px #cdb4db;
+}
+
+#outputYards {
+  color: var(--pink);
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-shadow: 3px 1px #cdb4db;
+}
+
+#outputMiles {
+  color: var(--lightpink);
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-shadow: 3px 1px #cdb4db;
+}
